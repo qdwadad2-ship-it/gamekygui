@@ -213,65 +213,54 @@
         <h3>Game yêu thích nhất</h3>
       </div>
 
-      <ul class="top-game-list">
+     <ul class="top-game-list">
 
-
-<li class="top-game-item" data-target-game="re-requiem-deluxe">
-  <span class="top-rank">1.</span>
-  <img src="img/re_requiem_deluxe.jpg" alt="Resident Evil Requiem" class="top-thumb">
-  <div class="top-info">
-    <p class="top-title">Resident Evil Requiem</p>
-    <span class="top-trend up">↗</span>
-  </div>
+ <li class="top-game-item" data-target-game="cities">
+    <span class="top-rank">1.</span>
+    <img src="img/citiesskylines2.webp" alt="Cities Skylines II" class="top-thumb">
+    <div class="top-info">
+      <p class="top-title">Cities: Skylines II Việt Hóa</p>
+      <span class="top-trend up">↗</span>
+    </div>
 </li>
 
+  <li class="top-game-item" data-target-game="elden">
+    <span class="top-rank">2.</span>
+    <img src="img/trending7.webp" alt="Elden Ring DLC" class="top-thumb">
+    <div class="top-info">
+      <p class="top-title">Elden Ring DLC Việt Hóa</p>
+      <span class="top-trend up">↗</span>
+    </div>
+  </li>
 
-        
-        <li class="top-game-item" data-target-game="cyberpunk">
-          <span class="top-rank">2.</span>
-          <img src="img/trending1.webp" alt="Cyberpunk 2077 DLC" class="top-thumb">
-          <div class="top-info">
-            <p class="top-title">Cyberpunk 2077 DLC Việt Hóa</p>
-            <span class="top-trend up">↗</span>
-          </div>
-        </li>
+  <li class="top-game-item" data-target-game="forza-horizon-6">
+    <span class="top-rank">3.</span>
+    <img src="img/forza_horizon_6.png" alt="Forza Horizon 6" class="top-thumb">
+    <div class="top-info">
+      <p class="top-title">Forza Horizon 6</p>
+      <span class="top-trend up">↗</span>
+    </div>
+  </li>
 
-        <li class="top-game-item" data-target-game="expedition33">
-          <span class="top-rank">3.</span>
-          <img src="img/test2.gif" alt="Clair Obscur Expedition 33" class="top-thumb">
-          <div class="top-info">
-            <p class="top-title">Clair Obscur: Expedition 33</p>
-            <span class="top-trend up">↗</span>
-          </div>
-        </li>
+  <li class="top-game-item" data-target-game="gtav">
+    <span class="top-rank">4.</span>
+    <img src="img/trending5.jpg" alt="GTA V" class="top-thumb">
+    <div class="top-info">
+      <p class="top-title">GTA V Việt Hóa</p>
+      <span class="top-trend up">↗</span>
+    </div>
+  </li>
 
-        <li class="top-game-item" data-target-game="ghost">
-          <span class="top-rank">4.</span>
-          <img src="img/trending2.png" alt="Ghost of Tsushima" class="top-thumb">
-          <div class="top-info">
-            <p class="top-title">Ghost of Tsushima</p>
-            <span class="top-trend same">–</span>
-          </div>
-        </li>
+  <li class="top-game-item" data-target-game="rdr2">
+    <span class="top-rank">5.</span>
+    <img src="img/new4.jpg" alt="Red Dead Redemption 2" class="top-thumb">
+    <div class="top-info">
+      <p class="top-title">Red Dead Redemption 2 Việt Hóa</p>
+      <span class="top-trend up">↗</span>
+    </div>
+  </li>
 
-        <li class="top-game-item" data-target-game="gtav">
-          <span class="top-rank">5.</span>
-          <img src="img/trending5.jpg" alt="GTA V" class="top-thumb">
-          <div class="top-info">
-            <p class="top-title">GTA V / GTA V Việt hóa</p>
-            <span class="top-trend up">↗</span>
-          </div>
-        </li>
-
-        <li class="top-game-item" data-target-game="stellarblade">
-          <span class="top-rank">6.</span>
-          <img src="img/trending6.jpg" alt="Stellar Blade" class="top-thumb">
-          <div class="top-info">
-            <p class="top-title">Stellar Blade</p>
-            <span class="top-trend up">↗</span>
-          </div>
-        </li>
-      </ul>
+</ul>
 
       <button class="top-see-more"
               data-list="favorite"
@@ -4436,7 +4425,7 @@ Dung lượng: 50 GB SSD`
 </div>
 
         <!-- New 4 -->
-        <div class="box" onclick="openPopup(
+        <div class="box" data-game="rdr2" onclick="openPopup(
   'Red Dead Redemption 2',
   'Hành động – phiêu lưu thế giới mở',
   '1.573.000',
@@ -14404,14 +14393,14 @@ Storage: 15 GB SSD`
 
 
 <!-- Cities: Skylines I & II -->
-<div class="box" onclick="openPopup(
-  'Cities: Skylines  II',
+<div class="box" data-game="cities" onclick="openPopup(
+  'Cities: Skylines II',
   'Mô phỏng, xây dựng thành phố',
   '600.000',
   '79.000',
-  'img/citiesskylines12.jpg',
+  'img/citiesskylines2.webp',
   'Cities: Skylines I & II là bộ đôi game xây dựng đô thị nổi tiếng, nơi bạn quy hoạch, quản lý và phát triển thành phố trong tầm tay.',
-  'https://www.youtube.com/embed/15tewoGFMgE',
+  'https://www.youtube.com/watch?v=mj5RSQx6jpQ',
   `OS: Windows 7 64-bit
 CPU: Intel Core i3 3.0 GHz
 RAM: 4 GB
@@ -14423,14 +14412,17 @@ RAM: 8 GB
 GPU: NVIDIA GTX 970 / AMD RX 580
 Storage: 8 GB SSD`
 )">
-  <img src="img/citiesskylines12.jpg" alt="Cities: Skylines  II Poster" />
+  <img src="img/citiesskylines2.webp" alt="Cities: Skylines II Poster" />
   <div class="box-text">
     <h2>Cities: Skylines II VIỆT HÓA</h2>
     <h3>Mô phỏng, xây dựng thành phố</h3>
     <div class="rating-download">
       <div class="rating">
         <i class="bx bx-dollar"></i>
-        <p><span class="old-price">600.000</span><span class="new-price">79.000</span></p>
+        <p>
+          <span class="old-price">600.000</span>
+          <span class="new-price">79.000</span>
+        </p>
       </div>
       <div class="game-rating">⭐ 9.0</div>
     </div>
